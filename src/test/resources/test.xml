@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation" parallel="classes">
+    <test name="Rest Assured, Schema, Allure">
+        <classes>
+            <class name="apiauto.APITest"/>
+            <class name="apiauto.deleteApi"/>
+            <class name="apiauto.PutApi"/>
+            <class name="apiauto.pacthApi"/>
+        </classes>
+    </test>
+</suite>
